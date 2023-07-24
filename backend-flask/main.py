@@ -9,7 +9,7 @@ api = Api(app)
 
 @app.route("/", defaults={'path':''})
 def home(path):
-    return {"info": "Hello! React-Flask Template by Nikhil Mohite - www.github.com/nkilm"}
+    return {"info": "Hello! Yash is that guy"}
 
 api.add_resource(helloworld)
 
